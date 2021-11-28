@@ -30,5 +30,6 @@ public class insertion_sort {
         insertion_sort i = new insertion_sort();
         i.sort_array(array, n);
         i.printArray(array, n);
+        sc.close();
     }
 }
